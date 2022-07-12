@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "lib": [
+      "esnext"
+    ],
+    "skipLibCheck": true,
+    "target": "es6",
+    "sourceMap": true,
+    "allowJs": true,
+    "checkJs": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "inlineSources": true,
+    "esModuleInterop": true,
+    "sourceRoot": "\/",
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "noEmit": true
+  },
+  "exclude": [
+    "node_modules\/**\/*",
+    ".serverless\/**\/*",
+    ".webpack\/**\/*",
+    ".vscode\/**\/*",
+    ".build\/**\/*",
+    ".esbuild\/**\/*",
+    "coverage\/**\/*",
+    "webpack.config.js"
+  ],
+  "ts-node": {
+    "files": true,
+    "transpileOnly": true
+  }
+}

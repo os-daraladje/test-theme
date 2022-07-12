@@ -23,15 +23,19 @@
           }
         },
         "content": {
-          "type": "content"
+          "type": "content",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "featured_image",
         "title",
+        "featured_image",
         "share",
         "content"
-      ]
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
